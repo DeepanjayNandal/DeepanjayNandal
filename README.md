@@ -17,6 +17,10 @@ M.S. Computer Software Engineering — Arizona State University
 Hybrid legal RAG platform over 33,969 U.S. Code chunks using BM25 and HNSW-indexed pgvector, with LLM query rewriting improving MRR by 21%. Raw retrieval at p50 6ms.
 `Python` `FastAPI` `PostgreSQL` `pgvector` `BM25`
 
+**[WeVibe — Real-Time Matchmaking Platform](https://github.com/DeepanjayNandal/weVibe-app)**
+Real-time iOS dating platform backend built for Appy.yo. Socket.IO and Redis pub/sub for horizontally scalable event delivery, PostGIS geo-filtering, and Gemini AI bio generation on Google Cloud Run.
+`Node.js` `TypeScript` `PostgreSQL` `Socket.IO` `Redis` `Google Cloud Run`
+
 **[Elastic Face Recognition](https://github.com/DeepanjayNandal/elastic-face-recognition)**
 Cloud and edge ML pipeline across EC2 autoscaling, serverless Lambda, and Greengrass edge inference. 100% accuracy across 100-image test set at sub-1.2s latency.
 `Python` `AWS EC2` `Lambda` `IoT Greengrass`
