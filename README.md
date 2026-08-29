@@ -22,8 +22,8 @@ Real-time iOS dating platform backend built for Appy.yo. Socket.IO and Redis pub
 `Node.js` `TypeScript` `PostgreSQL` `Socket.IO` `Redis` `Google Cloud Run`
 
 **[Elastic Face Recognition](https://github.com/DeepanjayNandal/elastic-face-recognition)**
-Cloud and edge ML pipeline across EC2 autoscaling, serverless Lambda, and Greengrass edge inference. 100% accuracy across 100-image test set at sub-1.2s latency.
-`Python` `AWS EC2` `Lambda` `IoT Greengrass`
+Cloud and edge ML pipeline across EC2 autoscaling, serverless Lambda, and Greengrass edge inference. Custom SQS queue-depth autoscaler across 15 EC2 instances at 0.96s average latency under 100 concurrent requests, with an edge tier short-circuiting no-face cases at 776ms end to end.
+`Python` `AWS EC2` `Lambda` `SQS` `IoT Greengrass`
 
 ---
 
@@ -32,7 +32,7 @@ Cloud and edge ML pipeline across EC2 autoscaling, serverless Lambda, and Greeng
 **Ittiam Systems** — Senior Software Engineer
 CVE validation infrastructure for Google's Android Security team. 50+ security tests authored and merged into AOSP. Pioneered Ghidra-based binary analysis approach adopted team-wide.
 
-**Discover Excellence** — Software Engineering Intern
+**Discover Excellence** — Software Engineer (Contract)
 Kafka pipeline processing 100k+ daily behavioral events at sub-40ms p95. Redis personalization layer and fault-tolerant BullMQ job pipeline for an AI eCommerce analytics platform.
 
 ---
