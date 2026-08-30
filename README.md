@@ -1,7 +1,10 @@
 # Hi, I'm Deepanjay 👋
 
-Backend & AI Infrastructure Engineer with 3+ years building distributed systems,
-event-driven pipelines, and LLM/RAG infrastructure.
+**Senior Software Engineer** — Backend & AI Infrastructure. 3+ years building distributed systems, event-driven pipelines, and LLM inference and retrieval systems.
+
+I've built CVE validation infrastructure for Google's Android Security team, Kafka pipelines processing 100k+ daily events, and a 9-layer LLM inference cache.
+
+I work across two areas that don't usually overlap: reverse engineering and security at the systems level, and retrieval and inference infrastructure.
 
 M.S. Computer Software Engineering — Arizona State University
 
@@ -10,19 +13,27 @@ M.S. Computer Software Engineering — Arizona State University
 ## Featured Projects
 
 **[BitMod — AI Inference Cache & Semantic Reuse Engine](https://github.com/DeepanjayNandal/BitMod--AI-Inference-Cache-Semantic-Reuse-Engine)**
+
 9-layer LLM cache proxy with semantic reuse and Bayesian evidence scoring. 176x speedup at 71ms cached latency, up to 94% cache hit rate on high-repetition workloads.
+
 `Python` `FastAPI` `pgvector` `Docker`
 
 **[CaseTally — Legal Search Platform](https://github.com/DeepanjayNandal/casetally)**
+
 Hybrid legal RAG platform over 33,969 U.S. Code chunks using BM25 and HNSW-indexed pgvector, with LLM query rewriting improving MRR by 21%. Raw retrieval at p50 6ms.
+
 `Python` `FastAPI` `PostgreSQL` `pgvector` `BM25`
 
 **[WeVibe — Real-Time Matchmaking Platform](https://github.com/DeepanjayNandal/weVibe-app)**
+
 Real-time iOS dating platform backend built for Appy.yo. Socket.IO and Redis pub/sub for horizontally scalable event delivery, PostGIS geo-filtering, and Gemini AI bio generation on Google Cloud Run.
+
 `Node.js` `TypeScript` `PostgreSQL` `Socket.IO` `Redis` `Google Cloud Run`
 
 **[Elastic Face Recognition](https://github.com/DeepanjayNandal/elastic-face-recognition)**
+
 Cloud and edge ML pipeline across EC2 autoscaling, serverless Lambda, and Greengrass edge inference. Custom SQS queue-depth autoscaler across 15 EC2 instances at 0.96s average latency under 100 concurrent requests, with an edge tier short-circuiting no-face cases at 776ms end to end.
+
 `Python` `AWS EC2` `Lambda` `SQS` `IoT Greengrass`
 
 ---
@@ -32,6 +43,8 @@ Cloud and edge ML pipeline across EC2 autoscaling, serverless Lambda, and Greeng
 **Ittiam Systems** — Senior Software Engineer. CVE validation infrastructure for Google's Android Security team. 50+ security tests authored and merged into AOSP. Pioneered Ghidra-based binary analysis approach adopted team-wide.
 
 **Discover Excellence** — Software Engineer (Contract). Kafka pipeline processing 100k+ daily behavioral events at sub-40ms p95. Redis personalization layer and fault-tolerant BullMQ job pipeline for an AI eCommerce analytics platform.
+
+**Appy.yo** — Backend Engineer, ASU Capstone. Industry-sponsored capstone delivering the production backend for WeVibe, a real-time iOS matchmaking platform. Built end-to-end with the sponsor across two-week sprints, translating evolving product requirements into a shipped platform.
 
 ---
 
