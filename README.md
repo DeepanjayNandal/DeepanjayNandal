@@ -29,11 +29,9 @@ Cloud and edge ML pipeline across EC2 autoscaling, serverless Lambda, and Greeng
 
 ## Work
 
-**Ittiam Systems** — Senior Software Engineer
-CVE validation infrastructure for Google's Android Security team. 50+ security tests authored and merged into AOSP. Pioneered Ghidra-based binary analysis approach adopted team-wide.
+**Ittiam Systems** — Senior Software Engineer. CVE validation infrastructure for Google's Android Security team. 50+ security tests authored and merged into AOSP. Pioneered Ghidra-based binary analysis approach adopted team-wide.
 
-**Discover Excellence** — Software Engineer (Contract)
-Kafka pipeline processing 100k+ daily behavioral events at sub-40ms p95. Redis personalization layer and fault-tolerant BullMQ job pipeline for an AI eCommerce analytics platform.
+**Discover Excellence** — Software Engineer (Contract). Kafka pipeline processing 100k+ daily behavioral events at sub-40ms p95. Redis personalization layer and fault-tolerant BullMQ job pipeline for an AI eCommerce analytics platform.
 
 ---
 
