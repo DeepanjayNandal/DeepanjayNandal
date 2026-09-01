@@ -14,13 +14,13 @@ M.S. Computer Software Engineering — Arizona State University
 
 **[BitMod — AI Inference Cache & Semantic Reuse Engine](https://github.com/DeepanjayNandal/BitMod--AI-Inference-Cache-Semantic-Reuse-Engine)**
 
-9-layer LLM cache proxy with semantic reuse and Bayesian evidence scoring. 176x speedup at 71ms cached latency, up to 94% cache hit rate on high-repetition workloads.
+Drop-in 9-layer LLM cache proxy with semantic reuse and Bayesian evidence scoring. 176x speedup at 71ms cached latency, up to 94% cache hit rate on high-repetition workloads. 1,141 tests with mypy strict enforced in CI.
 
 `Python` `FastAPI` `pgvector` `Docker`
 
 **[CaseTally — Legal Search Platform](https://github.com/DeepanjayNandal/casetally)**
 
-Hybrid legal RAG platform over 33,969 U.S. Code chunks using BM25 and HNSW-indexed pgvector, with LLM query rewriting improving MRR by 21%. Raw retrieval at p50 6ms.
+Hybrid legal RAG platform over 83,706 U.S. Code chunks using BM25 and HNSW-indexed pgvector, with LLM query rewriting improving MRR by 10%. Retrieval at p50 18ms and p95 36ms, measured by a Precision@3 / Recall@5 / MRR evaluation harness.
 
 `Python` `FastAPI` `PostgreSQL` `pgvector` `BM25`
 
@@ -32,7 +32,7 @@ Real-time iOS dating platform backend built for Appy.yo. Socket.IO and Redis pub
 
 **[Elastic Face Recognition](https://github.com/DeepanjayNandal/elastic-face-recognition)**
 
-Cloud and edge ML pipeline across EC2 autoscaling, serverless Lambda, and Greengrass edge inference. Custom SQS queue-depth autoscaler across 15 EC2 instances at 0.96s average latency under 100 concurrent requests, with an edge tier short-circuiting no-face cases at 776ms end to end.
+Cloud and edge ML pipeline across EC2 autoscaling, serverless Lambda, and Greengrass edge inference. Custom SQS queue-depth autoscaler across 15 EC2 instances at 0.96s average latency under 100 concurrent requests, with an edge tier short-circuiting no-face cases and cutting response time 2.3x to 776ms.
 
 `Python` `AWS EC2` `Lambda` `SQS` `IoT Greengrass`
 
