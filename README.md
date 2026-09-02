@@ -12,7 +12,7 @@ M.S. Computer Software Engineering — Arizona State University
 
 ## Featured Projects
 
-**[BitMod — AI Inference Cache & Semantic Reuse Engine](https://github.com/DeepanjayNandal/BitMod--AI-Inference-Cache-Semantic-Reuse-Engine)**
+**[BitMod — AI Inference Cache & Semantic Reuse Engine](https://github.com/DeepanjayNandal/bitmod)**
 
 Drop-in 9-layer LLM cache proxy with semantic reuse and Bayesian evidence scoring. 176x speedup at 71ms cached latency, up to 94% cache hit rate on high-repetition workloads. 1,168 tests with mypy strict enforced in CI.
 
