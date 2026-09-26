@@ -14,15 +14,15 @@ M.S. Computer Software Engineering — Arizona State University
 
 **[BitMod — AI Inference Cache & Semantic Reuse Engine](https://github.com/DeepanjayNandal/bitmod)**
 
-Drop-in 9-layer LLM cache proxy with semantic reuse and Bayesian evidence scoring. 176x speedup at 71ms cached latency, up to 94% cache hit rate on high-repetition workloads. 1,168 tests with mypy strict enforced in CI.
+Drop-in 9-layer LLM cache proxy with semantic reuse and Bayesian evidence scoring. 76% hit rate on a 50-query benchmark (100% on repeats, 53% on rephrasings). Zero false serves across 375 held-out queries with nothing cached. 90–101x speedup at sub-90ms cached latency over self-hosted LLM calls. 1,363 tests with mypy enforced in CI.
 
 `Python` `FastAPI` `pgvector` `Docker`
 
 **[CaseTally — Legal Search Platform](https://github.com/DeepanjayNandal/casetally)**
 
-Hybrid legal RAG platform over 83,706 U.S. Code chunks using BM25 and HNSW-indexed pgvector, with LLM query rewriting improving MRR by 10%. Retrieval at p50 18ms and p95 36ms, measured by a Precision@3 / Recall@5 / MRR evaluation harness.
+Hybrid legal RAG platform over 83,706 U.S. Code chunks using PostgreSQL full-text search and HNSW-indexed pgvector, with LLM query rewriting improving MRR by 10%. Retrieval at p50 18ms and p95 36ms without rewriting, measured by a Precision@3 / Recall@5 / MRR evaluation harness.
 
-`Python` `FastAPI` `PostgreSQL` `pgvector` `BM25`
+`Python` `FastAPI` `PostgreSQL` `pgvector` `Full-Text Search`
 
 **[WeVibe — Real-Time Matchmaking Platform](https://github.com/DeepanjayNandal/weVibe-app)**
 
