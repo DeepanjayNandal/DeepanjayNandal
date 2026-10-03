@@ -1,30 +1,30 @@
 # Hi, I'm Deepanjay 👋
 
-**Senior Software Engineer** — Backend & AI Infrastructure. 3+ years building distributed systems, event-driven pipelines, and LLM inference and retrieval systems.
+**Senior Software Engineer**: Backend & AI Infrastructure. 3+ years building distributed systems, event-driven pipelines, Kubernetes infrastructure, and LLM inference and retrieval systems.
 
 I've built CVE validation infrastructure for Google's Android Security team, Kafka pipelines processing 100k+ daily events, and a 9-layer LLM inference cache.
 
-I work across two areas that don't usually overlap: reverse engineering and security at the systems level, and retrieval and inference infrastructure.
+I work across two areas that don't usually overlap: reverse engineering and security at the systems level, and retrieval and inference infrastructure along with the Kubernetes platforms it runs on.
 
-M.S. Computer Software Engineering — Arizona State University
+M.S. Computer Software Engineering, Arizona State University
 
 ---
 
 ## Featured Projects
 
-**[BitMod — AI Inference Cache & Semantic Reuse Engine](https://github.com/DeepanjayNandal/bitmod)**
+**[BitMod: AI Inference Cache & Semantic Reuse Engine](https://github.com/DeepanjayNandal/bitmod)**
 
 Drop-in 9-layer LLM cache proxy with semantic reuse and Bayesian evidence scoring. 76% hit rate on a 50-query benchmark (100% on repeats, 53% on rephrasings). Zero false serves across 375 held-out queries with nothing cached. 90–101x speedup at sub-90ms cached latency over self-hosted LLM calls. 1,363 tests with mypy enforced in CI.
 
 `Python` `FastAPI` `pgvector` `Docker`
 
-**[CaseTally — Legal Search Platform](https://github.com/DeepanjayNandal/casetally)**
+**[CaseTally: Legal Search Platform](https://github.com/DeepanjayNandal/casetally)**
 
-Hybrid legal RAG platform over 83,706 U.S. Code chunks using PostgreSQL full-text search and HNSW-indexed pgvector, with LLM query rewriting improving MRR by 10%. Retrieval at p50 18ms and p95 36ms without rewriting, measured by a Precision@3 / Recall@5 / MRR evaluation harness.
+Legal RAG platform over 83,706 U.S. Code chunks. Splits plain-English questions into legal issues and searches each one with hybrid PostgreSQL full-text and pgvector retrieval fused by RRF, reaching MRR 0.85 at p50 45ms (from 325ms). Runs on Kubernetes, with KEDA scaling the embedding workers from 0 to 3 on queue depth and zero lost or duplicated work under SIGKILL (3,000/3,000 rows).
 
-`Python` `FastAPI` `PostgreSQL` `pgvector` `Full-Text Search`
+`Python` `FastAPI` `PostgreSQL` `pgvector` `Kubernetes` `KEDA`
 
-**[WeVibe — Real-Time Matchmaking Platform](https://github.com/DeepanjayNandal/weVibe-app)**
+**[WeVibe: Real-Time Matchmaking Platform](https://github.com/DeepanjayNandal/weVibe-app)**
 
 Real-time iOS dating platform backend built for Appy.yo. Socket.IO and Redis pub/sub for horizontally scalable event delivery, PostGIS geo-filtering, and Gemini AI bio generation on Google Cloud Run.
 
@@ -40,11 +40,11 @@ Cloud and edge ML pipeline across EC2 autoscaling, serverless Lambda, and Greeng
 
 ## Work
 
-**Ittiam Systems** — Senior Software Engineer. CVE validation infrastructure for Google's Android Security team. 50+ security tests authored and merged into AOSP. Pioneered Ghidra-based binary analysis approach adopted team-wide.
+**Discover Excellence**, Software Engineer (Contract). Kafka pipeline processing 100k+ daily behavioral events at sub-40ms p95. Redis personalization layer and fault-tolerant BullMQ job pipeline for an AI eCommerce analytics platform.
 
-**Discover Excellence** — Software Engineer (Contract). Kafka pipeline processing 100k+ daily behavioral events at sub-40ms p95. Redis personalization layer and fault-tolerant BullMQ job pipeline for an AI eCommerce analytics platform.
+**Appy.yo**, Backend Engineer, ASU Capstone. Industry-sponsored capstone delivering the production backend for WeVibe, a real-time iOS matchmaking platform. Built end-to-end with the sponsor across two-week sprints, translating evolving product requirements into a shipped platform.
 
-**Appy.yo** — Backend Engineer, ASU Capstone. Industry-sponsored capstone delivering the production backend for WeVibe, a real-time iOS matchmaking platform. Built end-to-end with the sponsor across two-week sprints, translating evolving product requirements into a shipped platform.
+**Ittiam Systems**, Senior Software Engineer. CVE validation infrastructure for Google's Android Security team. 50+ security tests authored and merged into AOSP. Pioneered a Ghidra-based binary analysis approach adopted team-wide.
 
 ---
 
