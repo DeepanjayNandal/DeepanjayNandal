@@ -40,11 +40,11 @@ Cloud and edge ML pipeline across EC2 autoscaling, serverless Lambda, and Greeng
 
 ## Work
 
+**Ittiam Systems**, Senior Software Engineer. CVE validation for Google's Android Security team. 50+ security tests authored and merged into AOSP. Used Ghidra and Frida to reach vulnerable code standard testing couldn't.
+
 **Discover Excellence**, Software Engineer (Contract). Kafka pipeline processing 100k+ daily behavioral events at sub-40ms p95. Redis personalization layer and fault-tolerant BullMQ job pipeline for an AI eCommerce analytics platform.
 
 **Appy.yo**, Backend Engineer, ASU Capstone. Industry-sponsored capstone delivering the production backend for WeVibe, a real-time iOS matchmaking platform. Built end-to-end with the sponsor across two-week sprints, translating evolving product requirements into a shipped platform.
-
-**Ittiam Systems**, Senior Software Engineer. CVE validation for Google's Android Security team. 50+ security tests authored and merged into AOSP. Used Ghidra and Frida to reach vulnerable code standard testing couldn't.
 
 ---
 
