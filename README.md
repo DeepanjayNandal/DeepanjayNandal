@@ -2,7 +2,7 @@
 
 **Senior Software Engineer**: Backend & AI Infrastructure. 3+ years building distributed systems, event-driven pipelines, Kubernetes infrastructure, and LLM inference and retrieval systems.
 
-I've built CVE validation infrastructure for Google's Android Security team, Kafka pipelines processing 100k+ daily events, and a 9-layer LLM inference cache.
+I've done CVE validation work for Google's Android Security team, built Kafka pipelines processing 100k+ daily events, and a 9-layer LLM inference cache.
 
 I work across two areas that don't usually overlap: reverse engineering and security at the systems level, and retrieval and inference infrastructure along with the Kubernetes platforms it runs on.
 
@@ -44,7 +44,7 @@ Cloud and edge ML pipeline across EC2 autoscaling, serverless Lambda, and Greeng
 
 **Appy.yo**, Backend Engineer, ASU Capstone. Industry-sponsored capstone delivering the production backend for WeVibe, a real-time iOS matchmaking platform. Built end-to-end with the sponsor across two-week sprints, translating evolving product requirements into a shipped platform.
 
-**Ittiam Systems**, Senior Software Engineer. CVE validation infrastructure for Google's Android Security team. 50+ security tests authored and merged into AOSP. Pioneered a Ghidra-based binary analysis approach adopted team-wide.
+**Ittiam Systems**, Senior Software Engineer. CVE validation for Google's Android Security team. 50+ security tests authored and merged into AOSP. Used Ghidra and Frida to reach vulnerable code standard testing couldn't.
 
 ---
 
